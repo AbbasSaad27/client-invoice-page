@@ -1,0 +1,8 @@
+.details-container {
+    background-color: white;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    padding: 2rem;
+    flex: 1;
+    overflow: auto;
+}

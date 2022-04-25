@@ -1,0 +1,28 @@
+
+
+.details-header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tabs-container {
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.btn-tab {
+    flex: 1;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: white;
+    color: #7D7D7D;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.tab-active {
+    border-bottom-color: #18AF8B;
+    color: #18AF8B;
+}

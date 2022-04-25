@@ -1,0 +1,105 @@
+
+
+.btn-back {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: #7D7D7D;
+    justify-content: space-between;
+}
+
+.btn-back {
+    margin-bottom: 3.5rem;
+    width: 13rem;
+}
+
+.page-container {
+    width: 70%;
+    margin: 0 10% 0 20%;
+    padding-top: 3rem;
+    height: 100%;
+}
+
+.page-title {
+    font-size: 2.2rem;
+    color: #1C1C1C;
+    margin-bottom: 1rem;
+}
+
+.about-page {
+    color: #7D7D7D;
+    font-size: 1.6rem;
+}
+
+.settlement-info {
+    display: block;
+    margin: 1rem auto 4rem;
+}
+
+.transaction-info {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bank-holiday-ov {
+    position: relative;
+    border: 1px solid #F2994A;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.box-title {
+    background-color: #F2994A;
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    top: -22%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 500;
+}
+
+.color-orange {
+    color: #F2994A;
+    padding-right: .5rem;
+}
+
+.transaction-info-note {
+    margin: 1rem 0;
+    color: #7D7D7D;
+    font-size: 1rem;
+}
+
+.warning-block {
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: #333333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2rem;
+    align-items: center;
+}
+
+.warning-block > * {
+    margin-right: 2rem;
+}
+.warning-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.btn-activate {
+    padding: .8rem 0;
+    margin-right: 0;
+    margin-left: auto;
+    width: 15rem;
+    border-radius: 5px;
+}
