@@ -58,7 +58,7 @@
 }
 
 .btn-card {
-    padding: .8rem 0;
+    padding: .8em 0;
     background-color: unset;
     outline: none;
     border: none;
@@ -87,7 +87,7 @@
 }
 
 .card-more-info {
-    padding: 0rem 1rem 1rem 3.2rem;
+    padding: 0em 1em 1em 3.2rem;
     color: #4B4949;
 }
 
@@ -102,4 +102,18 @@
 .btn-in-active {
     color: white;
     background-color: #18AF8B;
+}
+
+@media only screen and (max-width: 445px) {
+    .card-preview {
+        flex-direction: column;
+        height: 9rem;
+    }
+    .card-container {
+        height: 9rem;
+    }
+
+    .card-opened {
+        height: 14rem;
+    }
 }

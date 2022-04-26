@@ -41,3 +41,9 @@
   height: 100%;
   background-color: #E5E5E5;
 }
+
+@media only screen and (max-width: 850px) {
+  .App {
+    height: auto;
+  }
+}
