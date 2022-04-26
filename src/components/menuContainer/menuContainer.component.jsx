@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./menuContainer.styles.css";
 import MenuItem from "./menuItem/menuItem.component";
 
 const MenuContainer = function ({activeTab, setActiveTab}) {
 
+    const [menuOpen, setMenuOpen] = useState(false)
+
     return (
-        <div className="menu-container">
-            <ul>
+        <div className="menu-container">        
+            <div className="menu-opener" onClick={() => setMenuOpen(!menuOpen)}>
+                <div className={`line ${menuOpen ? "line-top" : ""}`}></div>
+                <div className={`line ${menuOpen ? "line-middle" : ""}`}></div>
+                <div className={`line ${menuOpen ? "line-bottom" : ""}`}></div>
+            </div>
+            <ul className={`menu-list ${menuOpen ? "menu-list-open" : ""}`}>
                 <MenuItem icon="credit" itemTitle="Cards" active={activeTab === 1} onclick={() => setActiveTab(1)}/>
                 <MenuItem icon="netBanking" itemTitle="Net Banking" active={activeTab === 2} onclick={() => setActiveTab(2)}/>
                 <MenuItem icon="upi" itemTitle="UPI" active={activeTab === 3} onclick={() => setActiveTab(3)}/>

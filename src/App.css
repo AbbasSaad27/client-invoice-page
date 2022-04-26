@@ -45,5 +45,6 @@
 @media only screen and (max-width: 850px) {
   .App {
     height: auto;
+    min-height: 100%;
   }
 }
