@@ -10,7 +10,7 @@ const MenuContainer = function ({activeTab, setActiveTab}) {
             <ul>
                 <MenuItem icon="credit" itemTitle="Cards" active={activeTab === 1} onclick={() => setActiveTab(1)}/>
                 <MenuItem icon="netBanking" itemTitle="Net Banking" active={activeTab === 2} onclick={() => setActiveTab(2)}/>
-                <MenuItem icon="credit" itemTitle="UPI" active={activeTab === 3} onclick={() => setActiveTab(3)}/>
+                <MenuItem icon="upi" itemTitle="UPI" active={activeTab === 3} onclick={() => setActiveTab(3)}/>
                 <MenuItem icon="wallet" itemTitle="Wallets" active={activeTab === 4} onclick={() => setActiveTab(4)}/>
                 <MenuItem icon="emi" itemTitle="EMI" active={activeTab === 5} onclick={() => setActiveTab(5)}/>
                 <MenuItem icon="credit" itemTitle="International Payments" active={activeTab === 6} onclick={() => setActiveTab(6)}/>
