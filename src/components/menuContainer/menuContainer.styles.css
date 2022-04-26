@@ -39,9 +39,14 @@
 @media only screen and (max-width: 850px) {
     .menu-container {
         width: 100%;
+        position: relative;
     }
     .menu-list {
         height: 0;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        width: 100%;
     }
 
     .menu-list-open {
