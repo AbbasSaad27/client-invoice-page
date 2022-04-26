@@ -24,11 +24,11 @@ const Card = function({cardTitle, cardStat}) {
                     <ArrowDown className={`btn btn-opener icon ${opened ? "icon-up" : ""}`} onClick={() => setOpened(!opened)} />
                     <div className="card-info">
                         {
-                            (cardTitle == "Visa" && <VisaSvg className="card-icon" />) ||
-                            (cardTitle == "Master Card" && <MasterCardSvg className="card-icon" />) ||
-                            (cardTitle == "Maestro" && <MaestroSvg className="card-icon" />) ||
-                            (cardTitle == "Rupay" && <RupaySvg className="card-icon" />) ||
-                            (cardTitle == "Amex Card" && <AmexSvg className="card-icon"/>)
+                            (cardTitle === "Visa" && <VisaSvg className="card-icon" />) ||
+                            (cardTitle === "Master Card" && <MasterCardSvg className="card-icon" />) ||
+                            (cardTitle === "Maestro" && <MaestroSvg className="card-icon" />) ||
+                            (cardTitle === "Rupay" && <RupaySvg className="card-icon" />) ||
+                            (cardTitle === "Amex Card" && <AmexSvg className="card-icon"/>)
                         }
                         <span className="card-name">{cardTitle}</span>
                     </div>
