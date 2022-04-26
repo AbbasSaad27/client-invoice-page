@@ -52,6 +52,7 @@ ul {
     font-size: 58%;
   }
 }
+
 @media only screen and (max-width: 560px) {
   html {
     font-size: 55%;
